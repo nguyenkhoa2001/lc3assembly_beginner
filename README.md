@@ -1,5 +1,5 @@
 # lc3assembly_beginner
-
+	Xin Chao - Hello
 - Repository được tạo nhằm mục đích lưu trữ và chia sẻ ý tưởng code LC3 cho mọi người. 
 - Các bài code theo từng chủ đề đề bằng mã LC3 sẽ được đóng gói riêng trong từng folder giúp người đọc dễ dàng tìm thấy (và học theo chủ đề sẽ dễ dàng hơn học từng thứ riêng biệt.
 - Sẽ update thường xuyên lời dẫn hoặc comment bằng tiếng Việt trong từng chủ đề, tiếng Anh sẽ ít hơn.
