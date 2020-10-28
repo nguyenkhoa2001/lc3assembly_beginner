@@ -1,8 +1,14 @@
 //Symbol Name		Page Address
 //----------------	------------
-//	CHUOI_ERROR_O_9         300F
-//	MODULE_CHUYEN_MA        3004
-//	NHAPSAI                 300C
-//	NHAP_TIEP               3002
-//	NUM_0                   3032
-//	NUM_9                   3033
+//	ASCII_NUM               3062
+//	CHUOI_ERROR_O_9         303F
+//	CONT_CHUC               3019
+//	IN_DONVI                3022
+//	MODULE_CHUYEN_MA        3008
+//	NHAPSAI                 3026
+//	NHAP_TIEP               3006
+//	NUM_0                   3063
+//	NUM_9                   3064
+//	O_NHO                   3029
+//	STOP_CHUC               301D
+//	THONGBAO_XUATSO         302A
