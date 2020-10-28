@@ -7,3 +7,7 @@
 # This repository is created to store and share LC3 assembly code ideas by topics for everyone.
 - Each topic will have its purposes, and the purposes (a.k.a module) are declared in the name of each folder.
 - Update regular instruction by Vietnamese, English will not be presented in most modules!!!
+# Hướng dẫn dùng
+- Đọc hợp ngữ LC3 của chương trình tương ứng trong file có đuôi *.asm
+- File đuôi *.hex và *.bin là mà HEX và mã nhị phân chuyển đổi của chương trình tương ứng cùng tên
+- File *.obj là file thực thi trên trình thực thi LC3Simualtor.exe
