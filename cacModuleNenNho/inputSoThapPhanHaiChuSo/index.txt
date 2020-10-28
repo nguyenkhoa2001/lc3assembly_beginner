@@ -1,0 +1,10 @@
+Chương trình nhận 2 chữ số Chục-Đơn Vị từ bàn phím rồi chuyển hai số này thành 1 số duy nhất lưu vào bộ nhớ ô x4000 rồi hiển thị số đó ( 2 chữ số dạng thập phân ) lên màn hình
+
+Chương trình sẽ nhận lần lượt 2 mã ASCII từ bàn phím người dùng
+
+Chương trình biến đổi 2 số đó thành một số duy nhất
+VD: nếu người dùng nhập lần lượt là "7" và "2", thì chương trình sẽ biến số đó thành 1 số duy nhất là #72
+
+Chương trình lưu số đó vào một ô nhớ (x4000).
+
+Chương trình in lại số đó ra màn hình theo định dạng "Chục-Đơn vị"

@@ -1,0 +1,5 @@
+#Chương trình nhận 1 ký tự là 0->9 theo mã ASCII từ bàn phím người dùng
+
+Nếu ko phải là một ký tự 0->9 thì chương trình báo lỗi "KHONG CHUYEN DUOC , KHONG PHAI KY SO"
+
+Nếu thoả mãn, chương trình thực hiện việc chuyển ký tự từ mã ASCII về số HEX rồi lưu vào một ô nhớ ( ô x4000)
