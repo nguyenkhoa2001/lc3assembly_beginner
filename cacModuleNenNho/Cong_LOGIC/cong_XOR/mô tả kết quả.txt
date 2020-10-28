@@ -1,0 +1,26 @@
+Như hình "ketqua_True.png" thì
+thanh ghi x4000 đang ghi nhớ giá trị nhị phân 1000
+thanh ghi x4001 đang ghi nhớ giá trị nhị phân 1101
+
+	1000
+    xor	1101
+     ____________
+=	0101 
+và chương trình trả kết quả đúng là thanh ghi x4002 đang ghi nhớ giá trị nhị phân (0101)
+
+
+
+
+Sơ đồ chương trình
+
+Thực hiện hàm XOR theo dạng
+
+           _     _
+ A XOR B = AB + AB
+ Vậy có 2 phép NOT, 2 phép AND và 1 phép OR
+vì LC3 không hỗ trợ phép OR nên dùng định lý demorgan ta có
+	_______   _____
+         _____    _   _
+A + B = (A + B) = A . B
+
+Vậy ta đã biến phép OR thành 3 phép AND và 1 phép NOT , LC3 có hỗ trợ việc này !!!!!
