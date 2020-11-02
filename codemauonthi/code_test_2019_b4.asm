@@ -10,10 +10,10 @@ AND R3,R3,X0 ; KHỞI TẠO BIẾN ĐẾM
 
 TIEP        AND R4,R0,R1 ;  CHO AND VỚI MẶT NẠ
             BRZ DETEC_ZER;  PHÁT HIỆN BIT 0 NÊN BỎ QUA VIỆC CỘNG BIẾN ĐẾM
-            ADD R3,R3,1
+            ADD R3,R3,#1
 DETEC_ZER   ADD R1,R1,R1  ; TẠO MASK MỚI CÓ ĐỘ DỜI BIT 1 SANG TRÁI 1 BIT
-            ADD R4,R1,R2  ; XEM THỬ MASK CÓ ĐANG TRONG TẦM GIÁ TRỊ ASCII HAY KHÔNG
-            BRN TIEP
+            ADD R2,R2,#-1  ; XEM THỬ MASK CÓ ĐANG TRONG TẦM GIÁ TRỊ ASCII HAY KHÔNG
+            BRP TIEP
 
 LEA R0,TB       ; IN RA MÀN HÌNH THÔNG BÁO SỐ LƯỢNG BIT 1 CHƯƠNG TRÌNH ĐẾM ĐƯỢC
 PUTS
@@ -26,5 +26,5 @@ OUT             ; IN RA MÀN HÌNH KẾT QUẢ
 HALT
 TB 	    .STRINGZ    "SL BIT 1 CO TRONG MA ASCII: "
 ASCII       .FILL	X30
-GIOI_HAN    .FILL	X-100
+GIOI_HAN    .FILL	#8 ; Vì chuỗi của ASCII chỉ có 8 bits
 .END
