@@ -1,0 +1,5 @@
+.ORIG X3020
+
+LEA R1, XDF
+HALT
+.END
