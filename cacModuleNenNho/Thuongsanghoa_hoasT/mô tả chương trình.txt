@@ -1,0 +1,5 @@
+chương trình nhận ký tự người dùng nhập từ bàn phím
+
+nếu là chữ hoa thì chuyển thành chữ thường rồi in lên màn hình
+
+nếu là chữ thường thì chuyển thành chữ hoa rồi in lên màn hình
